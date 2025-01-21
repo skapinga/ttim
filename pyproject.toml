@@ -96,3 +96,8 @@ ignore = [
 
 [tool.ruff.lint.pydocstyle]
 convention = "numpy"
+
+[dependency-groups]
+dev = [
+    "ipykernel>=6.29.5",
+]
